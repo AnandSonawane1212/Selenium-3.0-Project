@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.793">
+  <properties />
+  
+  
+            <testcase name="manufacturerTest" time="10.793" classname="in.apparelStore.testscripts.ManufactureTest" />
+      
+</testsuite>

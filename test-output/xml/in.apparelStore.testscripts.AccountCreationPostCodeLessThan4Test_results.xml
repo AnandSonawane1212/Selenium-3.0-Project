@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test5"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="85.709">
+  <properties />
+  
+  
+            <testcase name="createAccountTest" time="85.709" classname="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test" />
+      
+</testsuite>

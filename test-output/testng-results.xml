@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-18T14:24:50 IST" name="Apparel Store Test Suite" finished-at="2021-10-18T14:36:11 IST" duration-ms="681710">
+    <groups>
+    </groups>
+    <test started-at="2021-10-18T14:24:50 IST" name="Test1" finished-at="2021-10-18T14:25:27 IST" duration-ms="37474">
+      <class name="in.apparelStore.testscripts.LoginPageWithValidTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithValidTest@3cbcd8f3]" started-at="2021-10-18T14:24:50 IST" name="launchApplication" finished-at="2021-10-18T14:25:17 IST" duration-ms="27436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithValidTest@3cbcd8f3]" started-at="2021-10-18T14:25:17 IST" name="loginTest" finished-at="2021-10-18T14:25:26 IST" duration-ms="8754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithValidTest@3cbcd8f3]" started-at="2021-10-18T14:25:26 IST" name="closeBrowser" finished-at="2021-10-18T14:25:27 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.LoginPageWithValidTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-10-18T14:25:27 IST" name="Test2" finished-at="2021-10-18T14:26:16 IST" duration-ms="48198">
+      <class name="in.apparelStore.testscripts.WriteReviewTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.WriteReviewTest@290aeb20]" started-at="2021-10-18T14:25:27 IST" name="launchApplication" finished-at="2021-10-18T14:26:03 IST" duration-ms="35641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="writeReviewTest()[pri:0, instance:in.apparelStore.testscripts.WriteReviewTest@290aeb20]" started-at="2021-10-18T14:26:03 IST" name="writeReviewTest" finished-at="2021-10-18T14:26:14 IST" duration-ms="11425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReviewTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.WriteReviewTest@290aeb20]" started-at="2021-10-18T14:26:14 IST" name="closeBrowser" finished-at="2021-10-18T14:26:16 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.WriteReviewTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-10-18T14:26:16 IST" name="Test3" finished-at="2021-10-18T14:26:48 IST" duration-ms="32811">
+      <class name="in.apparelStore.testscripts.ManufactureTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.ManufactureTest@787f32b7]" started-at="2021-10-18T14:26:16 IST" name="launchApplication" finished-at="2021-10-18T14:26:36 IST" duration-ms="20719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="manufacturerTest()[pri:0, instance:in.apparelStore.testscripts.ManufactureTest@787f32b7]" started-at="2021-10-18T14:26:36 IST" name="manufacturerTest" finished-at="2021-10-18T14:26:47 IST" duration-ms="10793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturerTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.ManufactureTest@787f32b7]" started-at="2021-10-18T14:26:47 IST" name="closeBrowser" finished-at="2021-10-18T14:26:48 IST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.ManufactureTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-10-18T14:26:48 IST" name="Test4" finished-at="2021-10-18T14:27:14 IST" duration-ms="25254">
+      <class name="in.apparelStore.testscripts.ShareProductonFacebookTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.ShareProductonFacebookTest@3f29e26]" started-at="2021-10-18T14:26:48 IST" name="launchApplication" finished-at="2021-10-18T14:27:02 IST" duration-ms="13549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="shareProductTest()[pri:0, instance:in.apparelStore.testscripts.ShareProductonFacebookTest@3f29e26]" started-at="2021-10-18T14:27:02 IST" name="shareProductTest" finished-at="2021-10-18T14:27:12 IST" duration-ms="10021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.ShareProductonFacebookTest@3f29e26]" started-at="2021-10-18T14:27:12 IST" name="closeBrowser" finished-at="2021-10-18T14:27:14 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.ShareProductonFacebookTest -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-10-18T14:27:14 IST" name="Test5" finished-at="2021-10-18T14:28:58 IST" duration-ms="104349">
+      <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test@5cbd159f]" started-at="2021-10-18T14:27:14 IST" name="launchApplication" finished-at="2021-10-18T14:27:31 IST" duration-ms="17601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createAccountTest()[pri:0, instance:in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test@5cbd159f]" started-at="2021-10-18T14:27:31 IST" name="createAccountTest" finished-at="2021-10-18T14:28:57 IST" duration-ms="85709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test@5cbd159f]" started-at="2021-10-18T14:28:57 IST" name="closeBrowser" finished-at="2021-10-18T14:28:58 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-10-18T14:28:58 IST" name="Test6" finished-at="2021-10-18T14:30:39 IST" duration-ms="101522">
+      <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest@7ce4de34]" started-at="2021-10-18T14:28:58 IST" name="launchApplication" finished-at="2021-10-18T14:29:12 IST" duration-ms="13761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createAccountTest()[pri:0, instance:in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest@7ce4de34]" started-at="2021-10-18T14:29:12 IST" name="createAccountTest" finished-at="2021-10-18T14:30:39 IST" duration-ms="86803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest@7ce4de34]" started-at="2021-10-18T14:30:39 IST" name="closeBrowser" finished-at="2021-10-18T14:30:39 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-10-18T14:30:39 IST" name="Test7" finished-at="2021-10-18T14:31:05 IST" duration-ms="25476">
+      <class name="in.apparelStore.testscripts.PurchaseProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.PurchaseProductTest@acf859d]" started-at="2021-10-18T14:30:39 IST" name="launchApplication" finished-at="2021-10-18T14:30:54 IST" duration-ms="14846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="purchaseProductTest()[pri:0, instance:in.apparelStore.testscripts.PurchaseProductTest@acf859d]" started-at="2021-10-18T14:30:54 IST" name="purchaseProductTest" finished-at="2021-10-18T14:31:04 IST" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.PurchaseProductTest@acf859d]" started-at="2021-10-18T14:31:04 IST" name="closeBrowser" finished-at="2021-10-18T14:31:05 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.PurchaseProductTest -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-10-18T14:31:05 IST" name="Test8" finished-at="2021-10-18T14:31:35 IST" duration-ms="29650">
+      <class name="in.apparelStore.testscripts.LogoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.LogoutTest@460510aa]" started-at="2021-10-18T14:31:05 IST" name="launchApplication" finished-at="2021-10-18T14:31:24 IST" duration-ms="19381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="logoutTest()[pri:0, instance:in.apparelStore.testscripts.LogoutTest@460510aa]" started-at="2021-10-18T14:31:24 IST" name="logoutTest" finished-at="2021-10-18T14:31:33 IST" duration-ms="9135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.LogoutTest@460510aa]" started-at="2021-10-18T14:31:33 IST" name="closeBrowser" finished-at="2021-10-18T14:31:35 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.LogoutTest -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-10-18T14:31:35 IST" name="Test9" finished-at="2021-10-18T14:34:05 IST" duration-ms="150118">
+      <class name="in.apparelStore.testscripts.CreateNewAccountTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.CreateNewAccountTest@2c2db130]" started-at="2021-10-18T14:31:35 IST" name="launchApplication" finished-at="2021-10-18T14:32:07 IST" duration-ms="32406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createAccountTest()[pri:0, instance:in.apparelStore.testscripts.CreateNewAccountTest@2c2db130]" started-at="2021-10-18T14:32:07 IST" name="createAccountTest" finished-at="2021-10-18T14:34:04 IST" duration-ms="116755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.CreateNewAccountTest@2c2db130]" started-at="2021-10-18T14:34:04 IST" name="closeBrowser" finished-at="2021-10-18T14:34:05 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.CreateNewAccountTest -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-10-18T14:34:05 IST" name="Test10" finished-at="2021-10-18T14:34:33 IST" duration-ms="28608">
+      <class name="in.apparelStore.testscripts.ShareProductonGoogleTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.ShareProductonGoogleTest@20e6c4dc]" started-at="2021-10-18T14:34:05 IST" name="launchApplication" finished-at="2021-10-18T14:34:21 IST" duration-ms="16118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="shareProductTest()[pri:0, instance:in.apparelStore.testscripts.ShareProductonGoogleTest@20e6c4dc]" started-at="2021-10-18T14:34:21 IST" name="shareProductTest" finished-at="2021-10-18T14:34:32 IST" duration-ms="11446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.ShareProductonGoogleTest@20e6c4dc]" started-at="2021-10-18T14:34:32 IST" name="closeBrowser" finished-at="2021-10-18T14:34:33 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.ShareProductonGoogleTest -->
+    </test> <!-- Test10 -->
+    <test started-at="2021-10-18T14:34:33 IST" name="Test11" finished-at="2021-10-18T14:35:07 IST" duration-ms="33333">
+      <class name="in.apparelStore.testscripts.ShareProductonPinterest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.ShareProductonPinterest@557286ad]" started-at="2021-10-18T14:34:33 IST" name="launchApplication" finished-at="2021-10-18T14:34:55 IST" duration-ms="21993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="shareProductTest()[pri:0, instance:in.apparelStore.testscripts.ShareProductonPinterest@557286ad]" started-at="2021-10-18T14:34:55 IST" name="shareProductTest" finished-at="2021-10-18T14:35:05 IST" duration-ms="10090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.ShareProductonPinterest@557286ad]" started-at="2021-10-18T14:35:05 IST" name="closeBrowser" finished-at="2021-10-18T14:35:07 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.ShareProductonPinterest -->
+    </test> <!-- Test11 -->
+    <test started-at="2021-10-18T14:35:07 IST" name="Test12" finished-at="2021-10-18T14:35:38 IST" duration-ms="31748">
+      <class name="in.apparelStore.testscripts.SearchingTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.SearchingTest@68c87fc3]" started-at="2021-10-18T14:35:07 IST" name="launchApplication" finished-at="2021-10-18T14:35:27 IST" duration-ms="20057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchingTest()[pri:0, instance:in.apparelStore.testscripts.SearchingTest@68c87fc3]" started-at="2021-10-18T14:35:27 IST" name="searchingTest" finished-at="2021-10-18T14:35:37 IST" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.SearchingTest@68c87fc3]" started-at="2021-10-18T14:35:37 IST" name="closeBrowser" finished-at="2021-10-18T14:35:38 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.SearchingTest -->
+    </test> <!-- Test12 -->
+    <test started-at="2021-10-18T14:35:38 IST" name="Test13" finished-at="2021-10-18T14:36:11 IST" duration-ms="32972">
+      <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithInvalidTest@540a903b]" started-at="2021-10-18T14:35:38 IST" name="launchApplication" finished-at="2021-10-18T14:35:53 IST" duration-ms="14158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithInvalidTest@540a903b]" started-at="2021-10-18T14:35:53 IST" name="loginTest" finished-at="2021-10-18T14:36:10 IST" duration-ms="17627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.apparelStore.testscripts.LoginPageWithInvalidTest@540a903b]" started-at="2021-10-18T14:36:10 IST" name="closeBrowser" finished-at="2021-10-18T14:36:11 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.apparelStore.testscripts.LoginPageWithInvalidTest -->
+    </test> <!-- Test13 -->
+  </suite> <!-- Apparel Store Test Suite -->
+</testng-results>

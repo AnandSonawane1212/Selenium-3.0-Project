@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Apparel Store Test Suite">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+</listeners>
+  <test thread-count="5" name="Test1">
+
+    <classes>
+      <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/>
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test>
+  <test thread-count="5" name="Test2">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+      <class name="in.apparelStore.testscripts.WriteReviewTest"/>
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+      <class name="in.apparelStore.testscripts.ManufactureTest"/>
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test4">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+      <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/>
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test5">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+      <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/>
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test6">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+      <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/>
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test7">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+      <class name="in.apparelStore.testscripts.PurchaseProductTest"/>
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test8">
+   <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+      <class name="in.apparelStore.testscripts.LogoutTest"/>
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test9">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+      <class name="in.apparelStore.testscripts.CreateNewAccountTest"/>
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test10">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+      <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/>
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test11">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+      <class name="in.apparelStore.testscripts.ShareProductonPinterest"/>
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->  
+  
+    <test thread-count="5" name="Test12">
+    <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+      <class name="in.apparelStore.testscripts.SearchingTest"/>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test13">
+   <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+<!--       <class name="in.apparelStore.testscripts.LoginPageWithValidTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.WriteReviewTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ManufactureTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonFacebookTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationPostCodeLessThan4Test"/> -->
+<!--       <class name="in.apparelStore.testscripts.AccountCreationCountryFieldUnselectedTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.PurchaseProductTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.LogoutTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.CreateNewAccountTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonGoogleTest"/> -->
+<!--       <class name="in.apparelStore.testscripts.ShareProductonPinterest"/> -->
+<!--       <class name="in.apparelStore.testscripts.SearchingTest"/> -->
+      <class name="in.apparelStore.testscripts.LoginPageWithInvalidTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
